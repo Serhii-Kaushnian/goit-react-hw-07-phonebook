@@ -90,7 +90,7 @@ export default function ContactForm() {
         </Label>
         <Button type="submit" disabled={isLoading}>
           {isLoading && (
-            <SpinnerCircularFixed size={20} style={{ paddingRight: 8 }} />
+            <SpinnerCircularFixed size={20} style={{ paddingRight: 10 }} />
           )}
           Add contact
         </Button>
